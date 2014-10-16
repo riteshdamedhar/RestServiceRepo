@@ -1,0 +1,10 @@
+D:\Priya\CommonService\CommonService\bin\CommonService.dll
+D:\Priya\CommonService\CommonService\bin\CommonService.pdb
+D:\Priya\CommonService\CommonService\obj\Debug\CommonService.dll
+D:\Priya\CommonService\CommonService\obj\Debug\CommonService.pdb
+D:\Priya\CommonService\CommonService\obj\Debug\CommonService.csprojResolveAssemblyReference.cache
+E:\Projects\CommonService\CommonService\bin\CommonService.dll
+E:\Projects\CommonService\CommonService\bin\CommonService.pdb
+E:\Projects\CommonService\CommonService\obj\Debug\CommonService.dll
+E:\Projects\CommonService\CommonService\obj\Debug\CommonService.pdb
+E:\Projects\CommonService\CommonService\obj\Debug\CommonService.csprojResolveAssemblyReference.cache

@@ -1,0 +1,4 @@
+E:\Projects\CommonService\CommonService\bin\CommonService.dll
+E:\Projects\CommonService\CommonService\bin\CommonService.pdb
+E:\Projects\CommonService\CommonService\obj\Release\CommonService.dll
+E:\Projects\CommonService\CommonService\obj\Release\CommonService.pdb

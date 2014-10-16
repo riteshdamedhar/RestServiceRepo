@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DataSource" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=CommonDataBase.mssql.somee.com;Persist Security Info=True;User ID=riteshdamedhar_SQLLogin_1;Connect Timeout=60" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="DataSourceConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.TblBodyPart" Member="TblBodyParts">
+    <Type Name="TblBodyPart">
+      <Column Name="pkBPid" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="BodyPart" Type="System.String" DbType="Text NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblCategory" Member="tblCategories">
+    <Type Name="tblCategory">
+      <Column Name="pkCat_Id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Cat_name" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="Cat_desc" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tbl_UserReg" Member="Tbl_UserRegs">
+    <Type Name="Tbl_UserReg">
+      <Column Name="pkuser_id" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="first_Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="last_Name" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="userName" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="pass_Word" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="email_Id" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="contact_No" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="birth_Date" Type="System.String" DbType="VarChar(10)" CanBeNull="true" />
+      <Column Name="Gender" Type="System.String" DbType="VarChar(6)" CanBeNull="true" />
+      <Column Name="Education" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.tblclientreg" Member="tblclientregs">
+    <Type Name="tblclientreg">
+      <Column Name="clientid" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="caddress" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="city" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="gender" Type="System.String" DbType="VarChar(7)" CanBeNull="true" />
+      <Column Name="dateofbirth" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="contactno" Type="System.String" DbType="VarChar(15)" CanBeNull="true" />
+      <Column Name="qualification" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+      <Column Name="emailid" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="pwd" Type="System.String" DbType="VarChar(30)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
